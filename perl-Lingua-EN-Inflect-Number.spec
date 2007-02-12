@@ -6,7 +6,7 @@
 %define	pdir	Lingua
 %define	pnam	EN-Inflect-Number
 Summary:	Lingua::EN::Inflect::Number - Force number of words to singular or plural
-Summary(pl):	Lingua::EN::Inflect::Number - wymuszanie liczby s³ów na pojedyncz± lub mnog±
+Summary(pl.UTF-8):   Lingua::EN::Inflect::Number - wymuszanie liczby sÅ‚Ã³w na pojedynczÄ… lub mnogÄ…
 Name:		perl-Lingua-EN-Inflect-Number
 Version:	1.1
 Release:	1
@@ -36,18 +36,18 @@ singular or to plural. Lingua::EN::Inflect does funny things if you
 try to pluralise an already-plural word, but this module does the
 right thing.
 
-%description -l pl
-Ten modu³ rozszerza funkcjonalno¶æ Lingua::EN::Inflect o trzy nowe
-funkcje dostêpne do wyeksportowania.
+%description -l pl.UTF-8
+Ten moduÅ‚ rozszerza funkcjonalnoÅ›Ä‡ Lingua::EN::Inflect o trzy nowe
+funkcje dostÄ™pne do wyeksportowania.
 
-"number" przyjmuje s³owo i okre¶la jego liczbê. Zwraca s dla
-pojedynczej, p dla mnogiej i ambig dla s³ów, które mog± byæ zarówno w
+"number" przyjmuje sÅ‚owo i okreÅ›la jego liczbÄ™. Zwraca s dla
+pojedynczej, p dla mnogiej i ambig dla sÅ‚Ã³w, ktÃ³re mogÄ… byÄ‡ zarÃ³wno w
 liczbie pojedynczej, jak i mnogiej.
 
-"to_S" i "to_PL" przyjmuj± s³owo i wymuszaj± zmianê jego liczby na
-pojedyncz± lub mnog±. Lingua::EN::Inflect robi dziwne rzeczy je¿eli
-próbujemy zmieniæ na liczbê mnog± s³owo, które ju¿ jest w liczbie
-mnogiej, ale ten modu³ zachowuje siê poprawnie.
+"to_S" i "to_PL" przyjmujÄ… sÅ‚owo i wymuszajÄ… zmianÄ™ jego liczby na
+pojedynczÄ… lub mnogÄ…. Lingua::EN::Inflect robi dziwne rzeczy jeÅ¼eli
+prÃ³bujemy zmieniÄ‡ na liczbÄ™ mnogÄ… sÅ‚owo, ktÃ³re juÅ¼ jest w liczbie
+mnogiej, ale ten moduÅ‚ zachowuje siÄ™ poprawnie.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
