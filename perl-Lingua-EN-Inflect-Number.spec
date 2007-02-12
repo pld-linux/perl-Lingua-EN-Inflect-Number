@@ -6,7 +6,7 @@
 %define	pdir	Lingua
 %define	pnam	EN-Inflect-Number
 Summary:	Lingua::EN::Inflect::Number - Force number of words to singular or plural
-Summary(pl.UTF-8):   Lingua::EN::Inflect::Number - wymuszanie liczby słów na pojedynczą lub mnogą
+Summary(pl.UTF-8):	Lingua::EN::Inflect::Number - wymuszanie liczby słów na pojedynczą lub mnogą
 Name:		perl-Lingua-EN-Inflect-Number
 Version:	1.1
 Release:	1
