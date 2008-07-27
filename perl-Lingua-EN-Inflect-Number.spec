@@ -9,7 +9,7 @@ Summary:	Lingua::EN::Inflect::Number - Force number of words to singular or plur
 Summary(pl.UTF-8):	Lingua::EN::Inflect::Number - wymuszanie liczby słów na pojedynczą lub mnogą
 Name:		perl-Lingua-EN-Inflect-Number
 Version:	1.1
-Release:	1
+Release:	2
 License:	Unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-authors/id/S/SI/SIMON/%{pdir}-%{pnam}-%{version}.tar.gz
